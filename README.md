@@ -1,1 +1,2 @@
-# barec-shared-task-2025
+# BAREC Shared Task 2025: Arabic Readability Assessment
+
