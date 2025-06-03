@@ -49,11 +49,11 @@ Your output CSV file should have the following columns:
 
 - For sentence-level tasks (`--task Sent`):
   - `Sentence ID`: The unique identifier for each sentence.
-  - `Prediction`: Your predicted readability level for each sentence (integer between 1 and 19).
+  - `Prediction`: Your predicted readability level for each sentence (integer from 1 to 19).
 
 - For document-level tasks (`--task Doc`):
   - `Document ID`: The unique identifier for each document.
-  - `Prediction`: Your predicted readability level for each document (integer between 1 and 19).
+  - `Prediction`: Your predicted readability level for each document (integer from 1 to 19).
 
 **Example (Sentence-level):**
 
@@ -72,6 +72,24 @@ Your output CSV file should have the following columns:
 | ...         | ...        |
 
 Make sure the IDs in your output file match exactly those in the provided split (Dev or Test) for the chosen task.
+
+### Example Output
+
+After running the evaluation script, you will see output similar to the following in your terminal:
+
+```
+Evaluating Sentence-level readability on Dev split using examples/Dev_Sentence_Level.csv
+Accuracy: 56.6211%
+Accuracy +/-1: 69.8632%
+Average absolute distance: 1.143776
+Quadratic Cohen's Kappa: 80.0040%
+Accuracy (7 levels): 65.8687%
+Accuracy (5 levels): 70.2736%
+Accuracy (3 levels): 76.4569%
+Evaluation completed successfully.
+```
+
+Each metric is explained in the script and reflects the performance of your predictions on the selected split and task.
 
 
 ## Organizers:
