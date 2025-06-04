@@ -2,13 +2,45 @@
 
 The BAREC Shared Task 2025 will take place at The Third Arabic Natural Language Processing Conference (ArabicNLP 2025) at EMNLP 2025.
 
-## Task Description:
+***Click here to [register for the shared task](https://docs.google.com/forms/d/e/1FAIpQLSeSEHn3iPTQ2HCZ-t3DLGpJ5HjMld7xNFmGu87SOQ2ccywBKg)!***
 
-## Data:
+## Task Description
 
-## Evaluation:
+The BAREC Shared Task 2025 focuses on fine-grained readability classification across 19 levels using the Balanced Arabic Readability Evaluation Corpus (BAREC), a dataset of over 1 million words. Participants will build models for both sentence- and document-level classification.
 
-## Requirements:
+### Data
+
+- **[The BAREC Corpus](https://huggingface.co/datasets/CAMeL-Lab/BAREC-Shared-Task-2025):** The BAREC Corpus ([Elmadani et al., 2025](https://arxiv.org/abs/2502.13520)) consists of 1,362 documents and 68,182 sentences classified into 19 readability levels. The full BAREC dataset is available to participants. Participants should report on the Dev and Test splits when building their systems. For the final evaluation, we will provide a new blind Test set that will be only accessible on Codabench.
+
+- **[The SAMER Corpus](https://camel.abudhabi.nyu.edu/samer-simplification-corpus/):** The SAMER Corpus ([Alhafni et al., 2024](https://aclanthology.org/2024.lrec-main.1398/)) consists of 4,289 documents and 20,358 fragments classified into three readability levels. For this shared task, we utilize the fragments used and reported on by [Liberato et al. (2024)](https://aclanthology.org/2024.arabicnlp-1.5/).
+
+- **[The SAMER Lexicon](https://camel.abudhabi.nyu.edu/samer-readability-lexicon/):** The SAMER Lexicon ([Al Khalil et al., 2020](https://aclanthology.org/2020.lrec-1.373/)) is a 40K-lemma leveled readability lexicon. The lexicon consists of 40K lemma and part-of-speech pairs annotated into five readability levels.
+
+### Shared Task Tracks
+
+Participants can compete in one or more of the following tracks, each imposing different resource constraints:
+
+- **Strict Track:** Models must be trained exclusively on the BAREC Corpus.
+
+- **Constrained Track:** Models may use the BAREC Corpus, SAMER Corpus (including document, fragment, and word-level annotations), and the SAMER Lexicon.
+
+- **Open Track:** No restrictions on external resources, allowing the use of any publicly available data.
+
+With two sub-tasks and three tracks, the task results in a total of **six possible combinations**. Participants are allowed to compete in multiple sub-tasks and tracks.
+
+## Evaluation
+
+We define the Readability Assessment task as an ordinal classification task. The following metrics are used for evaluation:
+
+- **Accuracy (Acc<sup>19</sup>):** The percentage of cases where reference and prediction classes match in the 19-level scheme.
+- **Accuracy (Acc<sup>7</sup>, Acc<sup>5</sup>, Acc<sup>3</sup>):** The percentage of cases where reference and prediction classes match after collapsing the 19 levels into 7, 5, or 3 levels, respectively.
+- **Adjacent Accuracy (±1 Acc<sup>19</sup>):** Also known as off-by-1 accuracy. The proportion of predictions that are either exactly correct or off by at most one level in the 19-level scheme.
+- **Average Distance (Dist):** Also known as Mean Absolute Error (MAE). Measures the average absolute difference between predicted and true labels.
+- **Quadratic Weighted Kappa (QWK):** An extension of Cohen’s Kappa that measures the agreement between predicted and true labels, applying a quadratic penalty to larger misclassifications (i.e., predictions farther from the true label are penalized more heavily).
+
+We provide instructions on how to run the evaluation script below.
+
+### Requirements:
 
 You will need to have [conda](https://docs.conda.io/en/latest/miniconda.html) installed. To setup the environment, you would need to run:
 
@@ -89,7 +121,7 @@ Accuracy (3 levels): 76.4569%
 Evaluation completed successfully.
 ```
 
-Each metric is explained in the script and reflects the performance of your predictions on the selected split and task.
+Each metric reflects the performance of your predictions on the selected split and task.
 
 
 ## Organizers:
