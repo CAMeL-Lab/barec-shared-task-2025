@@ -2,7 +2,7 @@
 
 The BAREC Shared Task 2025 will take place at The Third Arabic Natural Language Processing Conference (ArabicNLP 2025) at EMNLP 2025.
 
-***Click here to [register for the shared task](https://docs.google.com/forms/d/e/1FAIpQLSeSEHn3iPTQ2HCZ-t3DLGpJ5HjMld7xNFmGu87SOQ2ccywBKg)!***
+***Click here to [register for the shared task](https://docs.google.com/forms/d/e/1FAIpQLSeSEHn3iPTQ2HCZ-t3DLGpJ5HjMld7xNFmGu87SOQ2ccywBKg/viewform)!***
 
 ## Task Description
 
