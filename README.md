@@ -124,7 +124,7 @@ Evaluation completed successfully.
 Each metric reflects the performance of your predictions on the selected split and task.
 
 
-## Organizers:
+## Organizers
 
 [Khalid Elmadani](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/computational-approaches-to-modeling-language-lab/researchers/khalid-ahmed.html)
 
@@ -135,8 +135,12 @@ Each metric reflects the performance of your predictions on the selected split a
 [Nizar Habash](https://www.nizarhabash.com/)
 
 
-## License:
+## License
 
 This repo is available under the MIT license. See the [LICENSE](LICENSE) for more info.
 
-## References:
+## References
+
+1. [A Large and Balanced Corpus for Fine-grained Arabic Readability Assessment](https://arxiv.org/abs/2502.13520). Khalid N. Elmadani, Nizar Habash, and Hanada Taha-Thomure. 2025. In Findings of the Association for Computational Linguistics: ACL 2025, Vienna, Austria.
+
+2. [Guidelines for fine-grained sentence-level Arabic readability annotation](https://arxiv.org/abs/2410.08674). Nizar Habash, Hanada Taha-Thomure, Khalid N. Elmadani, Zeina Zeino, and Abdallah Abushmaes. 2025. In Proceedings of the 19th Linguistic Annotation Workshop (LAW-XIX), Vienna, Austria.
