@@ -144,3 +144,5 @@ This repo is available under the MIT license. See the [LICENSE](LICENSE) for mor
 1. [A Large and Balanced Corpus for Fine-grained Arabic Readability Assessment](https://arxiv.org/abs/2502.13520). Khalid N. Elmadani, Nizar Habash, and Hanada Taha-Thomure. 2025. In Findings of the Association for Computational Linguistics: ACL 2025, Vienna, Austria.
 
 2. [Guidelines for fine-grained sentence-level Arabic readability annotation](https://arxiv.org/abs/2410.08674). Nizar Habash, Hanada Taha-Thomure, Khalid N. Elmadani, Zeina Zeino, and Abdallah Abushmaes. 2025. In Proceedings of the 19th Linguistic Annotation Workshop (LAW-XIX), Vienna, Austria.
+
+3. [The SAMER Arabic Text Simplification Corpus](https://aclanthology.org/2024.lrec-main.1398.pdf). Bashar Alhafni, Reem Hazim, Juan David Pineros Liberato, Muhamed Al Khalil, Nizar Habash. 2024. In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024). 
