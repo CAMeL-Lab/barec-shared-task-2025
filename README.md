@@ -8,25 +8,33 @@ The BAREC Shared Task 2025 will take place at The Third Arabic Natural Language 
 
 The BAREC Shared Task 2025 focuses on fine-grained readability classification across 19 levels using the Balanced Arabic Readability Evaluation Corpus (BAREC), a dataset of over 1 million words. Participants will build models for both sentence- and document-level classification.
 
-### Data
+## Data
 
-- **[The BAREC Corpus](https://huggingface.co/datasets/CAMeL-Lab/BAREC-Shared-Task-2025):** The BAREC Corpus ([Elmadani et al., 2025](https://arxiv.org/abs/2502.13520)) consists of 1,362 documents and 68,182 sentences classified into 19 readability levels. The full BAREC dataset is available to participants. Participants should report on the Dev and Test splits when building their systems. For the final evaluation, we will provide a new blind Test set that will be only accessible on Codabench.
+- **[The BAREC Corpus](https://huggingface.co/datasets/CAMeL-Lab/BAREC-Shared-Task-2025):** The BAREC Corpus ([Elmadani et al., 2025](https://arxiv.org/abs/2502.13520)) cconsists of 1,922 documents and 69,441 sentences classified into 19 readability levels. 
 
-- **[The SAMER Corpus](https://camel.abudhabi.nyu.edu/samer-simplification-corpus/):** The SAMER Corpus ([Alhafni et al., 2024](https://aclanthology.org/2024.lrec-main.1398/)) consists of 4,289 documents and 20,358 fragments classified into three readability levels. For this shared task, we utilize the fragments used and reported on by [Liberato et al. (2024)](https://aclanthology.org/2024.arabicnlp-1.5/).
+- **[The SAMER Corpus](https://camel.abudhabi.nyu.edu/samer-simplification-corpus/):** The SAMER Corpus ([Alhafni et al., 2024](https://aclanthology.org/2024.lrec-main.1398/)) consists of 4,289 documents and 20,358 fragments classified into three readability levels.
 
 - **[The SAMER Lexicon](https://camel.abudhabi.nyu.edu/samer-readability-lexicon/):** The SAMER Lexicon ([Al Khalil et al., 2020](https://aclanthology.org/2020.lrec-1.373/)) is a 40K-lemma leveled readability lexicon. The lexicon consists of 40K lemma and part-of-speech pairs annotated into five readability levels.
 
-### Shared Task Tracks
+## Shared Task Tracks
 
 Participants can compete in one or more of the following tracks, each imposing different resource constraints:
 
-- **Strict Track:** Models must be trained exclusively on the BAREC Corpus.
+- **Strict Track:** Models must be trained *exclusively* on the BAREC Corpus.
+  - Sentence-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9025/)
+  - Document-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9028/)
 
 - **Constrained Track:** Models may use the BAREC Corpus, SAMER Corpus (including document, fragment, and word-level annotations), and the SAMER Lexicon.
+  - Sentence-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9026/)
+  - Document-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9029/)
 
 - **Open Track:** No restrictions on external resources, allowing the use of any publicly available data.
+  - Sentence-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9027/)
+  - Document-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9030/)
+  
 
 With two sub-tasks and three tracks, the task results in a total of **six possible combinations**. Participants are allowed to compete in multiple sub-tasks and tracks.
+
 
 ## Evaluation
 
