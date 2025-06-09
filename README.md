@@ -10,7 +10,7 @@ The BAREC Shared Task 2025 focuses on fine-grained readability classification ac
 
 ## Data
 
-- **[The BAREC Corpus](https://huggingface.co/datasets/CAMeL-Lab/BAREC-Shared-Task-2025):** The BAREC Corpus ([Elmadani et al., 2025](https://arxiv.org/abs/2502.13520)) cconsists of 1,922 documents and 69,441 sentences classified into 19 readability levels. 
+- **[The BAREC Corpus](https://huggingface.co/collections/CAMeL-Lab/readability-6846ed8acb652c8d82aecd2a):** The BAREC Corpus ([Elmadani et al., 2025](https://arxiv.org/abs/2502.13520)) cconsists of 1,922 documents and 69,441 sentences classified into 19 readability levels. 
 
 - **[The SAMER Corpus](https://camel.abudhabi.nyu.edu/samer-simplification-corpus/):** The SAMER Corpus ([Alhafni et al., 2024](https://aclanthology.org/2024.lrec-main.1398/)) consists of 4,289 documents and 20,358 fragments classified into three readability levels.
 
@@ -134,7 +134,7 @@ Each metric reflects the performance of your predictions on the selected split a
 
 ## Organizers
 
-[Khalid Elmadani](https://nyuad.nyu.edu/en/research/faculty-labs-and-projects/computational-approaches-to-modeling-language-lab/researchers/khalid-ahmed.html)
+[Khalid Elmadani](https://khalid-elmadani.github.io/)
 
 [Bashar Alhafni](https://www.basharalhafni.com/)
 
