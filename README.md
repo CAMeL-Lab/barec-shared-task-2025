@@ -1,4 +1,4 @@
-# BAREC Shared Task 2025: Arabic Readability Assessment
+# [BAREC Shared Task 2025: Arabic Readability Assessment](https://barec.camel-lab.com/sharedtask2025)
 
 The BAREC Shared Task 2025 will take place at The Third Arabic Natural Language Processing Conference (ArabicNLP 2025) at EMNLP 2025.
 
