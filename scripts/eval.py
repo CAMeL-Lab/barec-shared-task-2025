@@ -13,15 +13,14 @@ if __name__ == "__main__":
     parser.add_argument("--output", type=str, required=True, help="Path to the output CSV file.")
     parser.add_argument("--split", type=str, choices=["Dev", "Test"], required=True, help="split: Dev or Test.")
     parser.add_argument("--task", type=str, choices=["Sent", "Doc"], required=True, help="task: Sent (Sentence-level) or Doc (Document-level).")
-    parser.add_argument("--token", type=str, required=True, help="HuggingFace token for loading the dataset.")
     args = parser.parse_args()
     
     output_path = args.output
     split = args.split
     task = args.task
-    token = args.token
-    task_split = task + "_" + split
+    #task_split = task + "_" + split
     task_name = "Sentence" if args.task == "Sent" else "Document"
+    split_name = "validation" if split == "Dev" else "test"
     
     # Placeholder for evaluation logic
     print(f"Evaluating {task_name}-level readability on {split} split using {output_path}")
@@ -35,11 +34,11 @@ if __name__ == "__main__":
     pred_dict = dict(zip(pred_ids, predictions))
 
     # Get the ground truth data
-    data_files = {task_split: task_split+".csv"}
-    barec = load_dataset("CAMeL-Lab/BAREC-Shared-Task-2025", token=token, data_files=data_files)
+    #data_files = {task_split: task_split+".csv"}
+    barec = load_dataset("CAMeL-Lab/BAREC-Shared-Task-2025-"+task.lower(), split=split_name)
     
-    gold_ids = [str(id) for id in list(barec[task_split]["ID"])]
-    labels = list(barec[task_split]["Readability_Level_19"])
+    gold_ids = [str(id) for id in list(barec["ID"])]
+    labels = list(barec["Readability_Level_19"])
 
     # Check if gold_ids and pred_ids contain exactly the same elements
     if set(gold_ids) != set(pred_ids):
