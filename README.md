@@ -155,4 +155,4 @@ This repo is available under the MIT license. See the [LICENSE](LICENSE) for mor
 
 3. [The SAMER Arabic Text Simplification Corpus](https://aclanthology.org/2024.lrec-main.1398/). Bashar Alhafni, Reem Hazim, Juan David Pineros Liberato, Muhamed Al Khalil, and Nizar Habash. 2024. In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), Torino, Italia.
 
-4. [A Large-Scale Leveled Readability Lexicon for Standard Arabic](https://aclanthology.org/2020.lrec-1.373/). Muhamed Al Khalil, Nizar Habash, and Zhengyang Jiang. In Proceedings of the Twelfth Language Resources and Evaluation Conference, pages 3053–3062, Marseille, France.
+4. [A Large-Scale Leveled Readability Lexicon for Standard Arabic](https://aclanthology.org/2020.lrec-1.373/). Muhamed Al Khalil, Nizar Habash, and Zhengyang Jiang. In Proceedings of the Twelfth Language Resources and Evaluation Conference, Marseille, France.
