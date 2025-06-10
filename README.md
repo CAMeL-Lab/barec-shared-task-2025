@@ -21,16 +21,16 @@ The BAREC Shared Task 2025 focuses on fine-grained readability classification ac
 Participants can compete in one or more of the following tracks, each imposing different resource constraints:
 
 - **Strict Track:** Models must be trained *exclusively* on the BAREC Corpus.
-  - Sentence-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9025/)
-  - Document-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9028/)
+  - Sentence-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9083/)
+  - Document-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9086/)
 
 - **Constrained Track:** Models may use the BAREC Corpus, SAMER Corpus (including document, fragment, and word-level annotations), and the SAMER Lexicon.
-  - Sentence-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9026/)
-  - Document-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9029/)
+  - Sentence-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9084/)
+  - Document-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9087/)
 
 - **Open Track:** No restrictions on external resources, allowing the use of any publicly available data.
-  - Sentence-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9027/)
-  - Document-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9030/)
+  - Sentence-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9085/)
+  - Document-level Readability Assessment: [CodaBench Link](https://www.codabench.org/competitions/9088/)
   
 
 With two sub-tasks and three tracks, the task results in a total of **six possible combinations**. Participants are allowed to compete in multiple sub-tasks and tracks.
@@ -153,4 +153,6 @@ This repo is available under the MIT license. See the [LICENSE](LICENSE) for mor
 
 2. [Guidelines for fine-grained sentence-level Arabic readability annotation](https://arxiv.org/abs/2410.08674). Nizar Habash, Hanada Taha-Thomure, Khalid N. Elmadani, Zeina Zeino, and Abdallah Abushmaes. 2025. In Proceedings of the 19th Linguistic Annotation Workshop (LAW-XIX), Vienna, Austria.
 
-3. [The SAMER Arabic Text Simplification Corpus](https://aclanthology.org/2024.lrec-main.1398.pdf). Bashar Alhafni, Reem Hazim, Juan David Pineros Liberato, Muhamed Al Khalil, Nizar Habash. 2024. In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024). 
+3. [The SAMER Arabic Text Simplification Corpus](https://aclanthology.org/2024.lrec-main.1398/). Bashar Alhafni, Reem Hazim, Juan David Pineros Liberato, Muhamed Al Khalil, and Nizar Habash. 2024. In Proceedings of the 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation (LREC-COLING 2024), Torino, Italia.
+
+4. [A Large-Scale Leveled Readability Lexicon for Standard Arabic](https://aclanthology.org/2020.lrec-1.373/). Muhamed Al Khalil, Nizar Habash, and Zhengyang Jiang. In Proceedings of the Twelfth Language Resources and Evaluation Conference, pages 3053–3062, Marseille, France.
